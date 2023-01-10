@@ -1,0 +1,146 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 51104,
+      "max": [
+        1.099489450454712,
+        1.487317681312561,
+        1.2503688335418701
+      ],
+      "min": [
+        -1.0994797945022583,
+        -1.293612003326416,
+        -3.1861114501953125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 613248,
+      "componentType": 5126,
+      "count": 51104,
+      "max": [
+        0.9999905228614807,
+        0.9999715089797974,
+        0.9999459385871887
+      ],
+      "min": [
+        -0.9999892115592957,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 298998,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "fabianoaraujo (https://sketchfab.com/fabianoaraujo)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/simple-asaro-head-fd74ad764a4e4619b72733316dc574b4",
+      "title": "Simple Asaro Head"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1195992,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1226496,
+      "byteOffset": 1195992,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2422488,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "material_0",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.9999868273735046,
+        -0.005127737298607826,
+        1.0988371605988693e-16,
+        0.0,
+        1.1102230246251565e-16,
+        2.2175995643736836e-16,
+        -1.0,
+        0.0,
+        0.005127737298607826,
+        0.9999868273735046,
+        2.2232632850204827e-16,
+        0.0,
+        0.004962962120771408,
+        -1.269787571800407e-05,
+        -2.819494797191362e-21,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "simpleAsaroHead01.OBJ.cleaner.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
